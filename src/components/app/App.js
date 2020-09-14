@@ -5,10 +5,12 @@ import styles from './App.module.css';
 
 function App() {
   return (
-    <div className={styles.App}>
-      <h1>React Calculator</h1>
-      <Display />
-      <ButtonPanel />
+    <div className={styles.container}>
+      <div className={styles.App}>
+        <h1 className={styles.title}>React Calculator</h1>
+        <Display />
+        <ButtonPanel />
+      </div>
     </div>
   );
 }

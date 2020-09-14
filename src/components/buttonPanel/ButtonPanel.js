@@ -5,32 +5,32 @@ import styles from './ButtonPanel.module.css';
 const ButtonPanel = () => (
   <div className="button-panel">
     <div className={styles.row}>
-      <Button name="AC" />
-      <Button name="+/-" />
-      <Button name="%" />
+      <Button name="AC" color="#dfdfdf" />
+      <Button name="+/-" color="#dfdfdf" />
+      <Button name="%" color="#dfdfdf" />
       <Button name="÷" />
     </div>
     <div className={styles.row}>
-      <Button name="7" />
-      <Button name="8" />
-      <Button name="9" />
+      <Button name="7" color="#dfdfdf" />
+      <Button name="8" color="#dfdfdf" />
+      <Button name="9" color="#dfdfdf" />
       <Button name="X" />
     </div>
     <div className={styles.row}>
-      <Button name="4" />
-      <Button name="5" />
-      <Button name="6" />
+      <Button name="4" color="#dfdfdf" />
+      <Button name="5" color="#dfdfdf" />
+      <Button name="6" color="#dfdfdf" />
       <Button name="-" />
     </div>
     <div className={styles.row}>
-      <Button name="1" />
-      <Button name="2" />
-      <Button name="3" />
+      <Button name="1" color="#dfdfdf" />
+      <Button name="2" color="#dfdfdf" />
+      <Button name="3" color="#dfdfdf" />
       <Button name="+" />
     </div>
     <div className={styles.row}>
-      <Button name="0" />
-      <Button name="." />
+      <Button name="0" wide="50%" color="#dfdfdf" />
+      <Button name="." color="#dfdfdf" />
       <Button name="=" />
     </div>
   </div>
