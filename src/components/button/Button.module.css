@@ -4,23 +4,9 @@
     justify-content: center;
     align-items: center;
     font-weight: lighter;
-    font-size: 1.4em;
-    background-color: #e0e1e6;
+    font-size: 1.8em;
     color: black;
     border: 1px solid rgb(214, 210, 210);
 }
 
-.operator {
-    background-color: #fe9241;
-  }
-
-  .wide {
-    display: flex;
-    width: 50%;
-  }
-  
-  .normal {
-    display: flex;
-    width: 25%;
-  }
   

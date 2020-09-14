@@ -7,7 +7,7 @@ function App() {
   return (
     <div className={styles.container}>
       <div className={styles.App}>
-        <h1 className={styles.title}>React Calculator</h1>
+        <h1 className={styles.title}>Calculator App</h1>
         <Display />
         <ButtonPanel />
       </div>

@@ -29,7 +29,7 @@ const ButtonPanel = () => (
       <Button name="+" />
     </div>
     <div className={styles.row}>
-      <Button name="0" wide="50%" color="#dfdfdf" />
+      <Button name="0" wide={100} color="#dfdfdf" />
       <Button name="." color="#dfdfdf" />
       <Button name="=" />
     </div>
