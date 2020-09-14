@@ -1,68 +1,104 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
-## Available Scripts
+<!-- PROJECT LOGO -->
 
-In the project directory, you can run:
+<br />
+<p align="center">
+   <a href="https://github.com/Eshy10/react-calculator">
+    <p align="center"> <img src="https://th.bing.com/th/id/OIP.7zZx6ZGiPZi4dwcoiRnbsAHaHa?w=192&h=192&c=7&o=5&pid=1.7" alt="React-logo" width="150" height="150"> </p>
+  </a>
+  <h2 align="center">React Calculator</h2>
+  <h3 align="center"> This project is about building a calculator for Math-magicians Inc using create-react-app. </h3>
 
-### `npm start`
+  <p align="center">
+    <a href="https://github.com/Eshy10/react-calculator/issues">Report Bug</a>
+    · 
+    <a href="https://github.com/Eshy10/react-calculator/issues">Request Feature</a>
+  </p>
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- [Table of Contents](#table-of-contents)
+- [About The Project](#about-the-project)
+- [Live Link (Heroku)](#live-link-heroku)
+- [Installation](#installation)
+- [Built With](#built-with)
+- [Authors](#authors)
+- [Show your support](#show-your-support)
+- [📝 License](#-license)
 
-### `npm test`
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This is a calculator app built with react using big.js for arbitrary-precision decimal arithmetic.
+<!-- Live Link (Heroku) -->
 
-### `npm run build`
+## Live Link (Heroku)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Click here](https://react-calculatorx.herokuapp.com/)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<!-- INSTALLATION -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+1. Clone the repo
+```sh
+git clone https://github.com/Eshy10/react-calculator.git
+```
+2. Open the project Directory in your local machine
+```
+cd react-calculator.git
+```
+1. Install NPM packages
+```sh
+npm install
+```
+4. Run Application
+```JS
+npm start
+```
+<!-- BUILD WITH -->
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Built With
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React
+- big.js
+- prop-types
+- Eslint
+- Stylelint
+- NPM
+- Github
+- Heroku
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<!-- CONTACT -->
+## Authors
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+👤 **Adewale Modupe** 
+    
+- [LinkedIn](https://www.linkedin.com/in/adewale-adeshola/)
+- [GitHub](https://github.com/Eshy10)
+- [Email](adewalebose15@gmail.com)
 
-## Learn More
+## Show your support
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Give a ⭐️ if you like this project!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/Eshy10/react-calculator.svg?style=flat-square
+[contributors-url]: https://github.com/Eshy10/react-calculator/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Eshy10/react-calculator.svg?style=flat-square
+[forks-url]: https://github.com/Eshy10/react-calculator/network/members
+[stars-shield]: https://img.shields.io/github/stars/Eshy10/react-calculator.svg?style=flat-square
+[stars-url]: https://github.com/Eshy10/react-calculator/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Eshy10/react-calculator.svg?style=flat-square
+[issues-url]: https://github.com/Eshy10/react-calculator/issues
 
-### Code Splitting
+## 📝 License
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
