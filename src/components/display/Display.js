@@ -1,8 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './display.module.css';
 
 const Display = ({ result }) => (
-  <div>
+  <div className={styles.display}>
     <h6>{result}</h6>
   </div>
 );
