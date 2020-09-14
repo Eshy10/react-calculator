@@ -7,9 +7,9 @@
 
 <br />
 <p align="center">
-  <a href="https://github.com/Eshy10/react-calculator">
+   <a href="https://github.com/Eshy10/react-calculator">
+    <p align="center"> <img src="https://th.bing.com/th/id/OIP.7zZx6ZGiPZi4dwcoiRnbsAHaHa?w=192&h=192&c=7&o=5&pid=1.7" alt="React-logo" width="150" height="150"> </p>
   </a>
-
   <h2 align="center">React Calculator</h2>
   <h3 align="center"> This project is about building a calculator for Math-magicians Inc using create-react-app. </h3>
 
