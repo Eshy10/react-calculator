@@ -4,7 +4,7 @@ import ButtonPanel from '../buttonPanel/ButtonPanel';
 import styles from './App.module.css';
 import calculate from '../../logic/calculate';
 
-class App extends Component() {
+class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -15,6 +15,7 @@ class App extends Component() {
   }
 
   handleClick = buttonName => {
+    // eslint-disable-next-line react/no-access-state-in-setstate
     this.setState(calculate(this.state, buttonName));
   }
 
