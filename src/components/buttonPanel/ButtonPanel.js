@@ -2,35 +2,39 @@ import React from 'react';
 import Button from '../button/Button';
 import styles from './ButtonPanel.module.css';
 
+const grey = {
+  color: '#dfdfdf',
+};
+
 const ButtonPanel = () => (
   <div className="button-panel">
     <div className={styles.row}>
-      <Button name="AC" color="#dfdfdf" />
-      <Button name="+/-" color="#dfdfdf" />
-      <Button name="%" color="#dfdfdf" />
+      <Button name="AC" color={grey} />
+      <Button name="+/-" color={grey} />
+      <Button name="%" color={grey} />
       <Button name="÷" />
     </div>
     <div className={styles.row}>
-      <Button name="7" color="#dfdfdf" />
-      <Button name="8" color="#dfdfdf" />
-      <Button name="9" color="#dfdfdf" />
+      <Button name="7" color={grey} />
+      <Button name="8" color={grey} />
+      <Button name="9" color={grey} />
       <Button name="X" />
     </div>
     <div className={styles.row}>
-      <Button name="4" color="#dfdfdf" />
-      <Button name="5" color="#dfdfdf" />
-      <Button name="6" color="#dfdfdf" />
+      <Button name="4" color={grey} />
+      <Button name="5" color={grey} />
+      <Button name="6" color={grey} />
       <Button name="-" />
     </div>
     <div className={styles.row}>
-      <Button name="1" color="#dfdfdf" />
-      <Button name="2" color="#dfdfdf" />
-      <Button name="3" color="#dfdfdf" />
+      <Button name="1" color={grey} />
+      <Button name="2" color={grey} />
+      <Button name="3" color={grey} />
       <Button name="+" />
     </div>
     <div className={styles.row}>
-      <Button name="0" wide={100} color="#dfdfdf" />
-      <Button name="." color="#dfdfdf" />
+      <Button name="0" wide color={grey} />
+      <Button name="." color={grey} />
       <Button name="=" />
     </div>
   </div>

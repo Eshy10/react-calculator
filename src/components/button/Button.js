@@ -5,8 +5,8 @@ import styles from './Button.module.css';
 const Button = ({ name, wide, color }) => (
   <button
     type="button"
-    className={styles.button}
-    style={{ backgroundColor: color, width: wide ? '50%' : '25%' }}
+    className={wide ? styles.wide : styles.normal}
+    style={{ backgroundColor: color }}
   >
     { name }
   </button>
