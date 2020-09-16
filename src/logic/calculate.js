@@ -14,15 +14,11 @@ const calculate = (calculator, buttonName) => {
     operation = null;
   } else if (operators.includes(buttonName)) {
     if (buttonName === '%') {
-      if (operation && next) {
-        const result = operate(total, next, operation);
-        total = (result * 0.01).toString();
-        next = null;
-        operation = null;
-      } if (next) {
-        next = (next * 0.01).toString();
-      }
-    } else if (total && next && operation) {
+      total = (total *= 0.01).toString();
+      next = (next *= 0.01).toString();
+      operation = null;
+    }
+    if (total && next && operation) {
       total = operate(total, next, operation);
       operation = buttonName;
       next = null;
@@ -46,6 +42,14 @@ const calculate = (calculator, buttonName) => {
   } else if (buttonName === '.' && next) {
     if (!next.includes('.')) {
       next += '.';
+    }
+  } else if (buttonName === '.') {
+    if (!next) {
+      next = '0.';
+    }
+  } else if (next) {
+    if (!operators.includes(buttonName) && buttonName !== '=' && buttonName !== '.') {
+      next += buttonName;
     }
   } else {
     next = buttonName;

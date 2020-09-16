@@ -6,19 +6,25 @@ const operate = (numberOne, numberTwo, operation) => {
   let result;
   if (operation === '+') {
     result = firstNumber.plus(secondNumber).toString();
-    return result;
   }
   if (operation === '-') {
     result = firstNumber.minus(secondNumber).toString();
-    return result;
   }
   if (operation === 'X') {
     result = firstNumber.times(secondNumber).toString();
-    return result;
   }
+
+  if (operation === '%') {
+    result = firstNumber.mod(secondNumber).toString();
+  }
+
   if (operation === '÷' && secondNumber !== '0') {
-    result = firstNumber.div(secondNumber).toString();
-    return result;
+    // eslint-disable-next-line eqeqeq
+    if (secondNumber == 0) {
+      result = 'NaN';
+    } else {
+      result = firstNumber.div(secondNumber).toString();
+    }
   }
   return result;
 };
