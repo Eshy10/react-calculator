@@ -21,7 +21,7 @@ class App extends Component {
 
   render() {
     const { total, next } = this.state;
-    const result = total || next;
+    const result = next || total || '0';
     return (
       <div className={styles.container}>
         <div className={styles.App}>
