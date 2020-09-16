@@ -40,7 +40,7 @@ This is a calculator app built with react using big.js for arbitrary-precision d
 
 ## Live Link (Heroku)
 
-[Click here](https://react-calculatorx.herokuapp.com/)
+[Click here]( https://react-mycalculatox.herokuapp.com/)
 
 <!-- INSTALLATION -->
 
