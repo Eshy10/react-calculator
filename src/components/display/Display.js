@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './Display.module.css';
+import styles from './display.module.css';
 
 const Display = ({ result }) => (
   <div className={styles.display}>

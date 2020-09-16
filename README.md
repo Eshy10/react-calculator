@@ -36,11 +36,14 @@
 ## About The Project
 
 This is a calculator app built with react using big.js for arbitrary-precision decimal arithmetic.
+
+![chrome-capture](https://user-images.githubusercontent.com/52670459/93386004-f5a3fa00-f85e-11ea-99ef-f823e0ddbafc.gif)
+
 <!-- Live Link (Heroku) -->
 
 ## Live Link (Heroku)
 
-[Click here](https://react-calculatorx.herokuapp.com/)
+[Click here]( https://react-mycalculatox.herokuapp.com/)
 
 <!-- INSTALLATION -->
 
