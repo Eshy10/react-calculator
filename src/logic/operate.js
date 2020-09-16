@@ -10,12 +10,8 @@ const operate = (numberOne, numberTwo, operation) => {
   if (operation === '-') {
     result = firstNumber.minus(secondNumber).toString();
   }
-  if (operation === 'X') {
+  if (operation === 'x') {
     result = firstNumber.times(secondNumber).toString();
-  }
-
-  if (operation === '%') {
-    result = firstNumber.mod(secondNumber).toString();
   }
 
   if (operation === '÷' && secondNumber !== '0') {

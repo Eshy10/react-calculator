@@ -2,7 +2,7 @@ import operate from './operate';
 
 const calculate = (calculator, buttonName) => {
   let { total, next, operation } = calculator;
-  const operators = ['+', '-', '÷', 'X', '%'];
+  const operators = ['+', '-', '÷', 'x', '%'];
 
   if (buttonName === 'AC') {
     total = null;
@@ -14,7 +14,6 @@ const calculate = (calculator, buttonName) => {
     operation = null;
   } else if (operators.includes(buttonName)) {
     if (buttonName === '%') {
-      total = (total *= 0.01).toString();
       next = (next *= 0.01).toString();
       operation = null;
     }

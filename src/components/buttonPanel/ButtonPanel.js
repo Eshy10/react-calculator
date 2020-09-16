@@ -15,7 +15,7 @@ const ButtonPanel = ({ clickHandler }) => (
       <Button clickHandler={clickHandler} name="7" color={styles.color} />
       <Button clickHandler={clickHandler} name="8" color={styles.color} />
       <Button clickHandler={clickHandler} name="9" color={styles.color} />
-      <Button clickHandler={clickHandler} name="X" />
+      <Button clickHandler={clickHandler} name="x" />
     </div>
     <div className={styles.row}>
       <Button clickHandler={clickHandler} name="4" color={styles.color} />
